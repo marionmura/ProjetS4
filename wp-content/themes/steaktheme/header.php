@@ -12,12 +12,12 @@
             <header class="header">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo wp_get_attachment_image(64, 'full'); ?></a>
                 
-                <div class="container-search">
+                <div class="">
                   <?php
                       wp_nav_menu ( array (
                       'theme_location' => 'header-menu' 
                       ) ); ?>
-                  <div class="searchbar">
+                  <div class="">
                     <?php echo wp_get_attachment_image(68, 'full'); ?>
                     <?php get_search_form(); ?>
                   </div>

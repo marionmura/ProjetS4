@@ -6,10 +6,10 @@ get_header();?>
         
     
 
-    <div class="petit-container">
-        <div class="home-img">
+    <div class="">
+        <div class="">
         </div>
-        <div class="txt">
+        <div class="">
             <p>test thème steak</p>
     </div>
     </div>
@@ -26,9 +26,9 @@ get_header();?>
         $the_query = new WP_Query( $args );
         // La boucle
         if ( $the_query->have_posts() ) {
-            echo '<div class="home-grid-3">';
+            echo '<div class="">';
             while ( $the_query->have_posts() ) {
-                echo '<article class="cards_equipe">' . 
+                echo '<article class="">' . 
                 $the_query->the_post();
                 get_the_title() .
                 the_post_thumbnail("thumbnail") ;
@@ -43,8 +43,8 @@ get_header();?>
         </div>
     </div>
 
-    <div class="petit-container">
-    <div class="txt">
+    <div class="">
+    <div class="">
     
     </div>
 <?php echo wp_get_attachment_image(21, array(500, 500)); ?>

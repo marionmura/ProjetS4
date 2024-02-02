@@ -5,6 +5,9 @@
     <title><?php the_title(); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
     <?php wp_head(); ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="wrap">
@@ -12,15 +15,11 @@
             <header class="header">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo wp_get_attachment_image(64, 'full'); ?></a>
                 
-                <div class="">
+                <div class="header">
                   <?php
                       wp_nav_menu ( array (
                       'theme_location' => 'header-menu' 
                       ) ); ?>
-                  <div class="">
-                    <?php echo wp_get_attachment_image(68, 'full'); ?>
-                    <?php get_search_form(); ?>
-                  </div>
                 </div>
             </header>
         </div>

@@ -79,8 +79,22 @@ footer {
     list-style: none;
   }
 
+/* HOME PAGE et bannière*/
+.home-titre{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 36px;
+    color: #171C30;
+}
 
+.home-banniere-section{
+  background-color: #F6F2EA;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.img-banniere{
+  width:75%;
+}
 
   /*CARDS ET CONTAINER*/
 

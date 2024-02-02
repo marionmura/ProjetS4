@@ -1,16 +1,15 @@
 <?php
 get_header();?>
     
-    <!-- <?php
-        echo wp_get_attachment_image(85, 'large', "", array( "class" => "img-full-width" ) ); ?>  logo -->
-        
-    
-
-    <div class="">
+    <div class="home-banniere-section">
         <div class="">
+            <img class="img-banniere" src="<?php
+            echo wp_get_attachment_url(13); ?>" alt="banniere" /> 
         </div>
-        <div class="">
-            <p>test thème steak</p>
+        <div class="home-titre">
+            <p>Bienvenue sur mon portfolio  !</p>
+        <p>Je suis Marion MURA,
+        graphiste et web designeuse</p>
     </div>
     </div>
 

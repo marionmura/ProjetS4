@@ -13,40 +13,34 @@ get_header();?>
     </div>
     </div>
 
-    <div class="">
-
-    <div>
-    <?php $args = array(
-    'post_type' => 'equipe',
-    'posts_per_page' => 3,
-        );
-
-        // LA REQUETE
-        $the_query = new WP_Query( $args );
-        // La boucle
-        if ( $the_query->have_posts() ) {
-            echo '<div class="">';
-            while ( $the_query->have_posts() ) {
-                echo '<article class="">' . 
-                $the_query->the_post();
-                get_the_title() .
-                the_post_thumbnail("thumbnail") ;
-                echo '</article>';
-            }
-        echo '</div>';
-        } else {
-            // Rien à afficher
-        }
-        // / Remettre les données initiales /
-        wp_reset_postdata();?>
+    <div class="section-nuit">
+        <div>
+            <p>Je suis étudiante en 2ème année au BUT MMI à Montbéliard</p>
+        </div>
+        <div>
+            <p>je suis en parcours création numérique, c’est ...</p>
+        </div>
+        <div>
+            <p>... du design, de l’animation et de la créativité </p>
         </div>
     </div>
 
-    <div class="">
-    <div class="">
-    
-    </div>
-<?php echo wp_get_attachment_image(21, array(500, 500)); ?>
+    <div class="presentation-grid-2">
+        <div>
+            <h1>Moi c’est Marion</h1>
+            <p>J’ai 21 ans et je suis étudiante au BUT MMI à Montbéliard.</p>
+            <p>Je suis en 2ème année et je travaille avec la suite Adobe (InDesign, After Effect, Illustrator et Photoshop).</p>
+            <p>J’ai déjà eu l’occasion de réaliser des sites web avec Wordpress ou en HTML/ CSS ou en Vue JS et pocketbase pour la gestion des pages dynamiques.</p>
+            <p>Et pendant mon temps libre j’adore dessiner, vous pouvez me retrouver sur Instagram sous steakosaure.png.</p>
+        </div>
+        <div>
+            <img class="photodemoi" src="<?php
+                echo wp_get_attachment_url(15); ?>" alt="banniere" />
+            <img class="cercles" src="<?php
+                echo wp_get_attachment_url(18); ?>" alt="banniere" />
+            <img class="cercles" src="<?php
+            echo wp_get_attachment_url(19); ?>" alt="banniere" />
+        </div>
     </div>
 
 <?php 

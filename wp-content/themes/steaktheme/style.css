@@ -54,13 +54,13 @@ header a{
 
 body{
    margin:0;
-   font-family: 'Lato', Lato, sans-serif;
+   font-family: 'Quicksand', sans-serif;
    width:auto;
 }
 
 /*FOOTER*/ 
 footer {
-    background-color: #1D243E;
+    background-color: #171C30;
     color:white;
     margin:0;
     padding:0;
@@ -96,6 +96,15 @@ footer {
   width:75%;
 }
 
+.section-nuit{
+  background-color:#171C30;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  color: white
+}
+.section-nuit p {
+  margin:0;
+}
   /*CARDS ET CONTAINER*/
 
 
@@ -136,25 +145,24 @@ footer {
 
  /*PAGE 404 STYLE*/
 
-
-
- button {
-  background-color: #AE58DB;
-  padding:15px;
-  border-radius: 5px;
-  border:none;
- }
-
- button a {
-  font-weight: bold;;
-  color:white;
-  text-decoration: none;
- }
-
  /*PAGE HOME*/
  
+.presentation-grid-2{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #F6F2EA;
+}
 
+.photodemoi{
+  display:block;
+  width:50%;
+}
 
+.cercles{
+  position : absolute;
+}
 
 /* ARTICLE */
 

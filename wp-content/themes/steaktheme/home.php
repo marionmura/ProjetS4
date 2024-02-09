@@ -1,18 +1,28 @@
 <?php
 get_header();?>
-<button class="toggle-button" id="night-mode-btn">Toggle Night Mode</button>
 
-
+<button class="toggle-button" id="night-mode-btn">
+    <img class="" src="<?php
+        echo wp_get_attachment_url(23); ?>" alt="moonfull" /> 
+            Night Mode
+</button>
 <script>
     const nightModeBtn = document.getElementById('night-mode-btn');
     const body = document.body;
+    const image = document.querySelector('.toggle-button img');
 
     nightModeBtn.addEventListener('click', () => {
         body.classList.toggle('night-mode');
+        if (body.classList.contains('night-mode')) {
+            image.src = "<?php echo wp_get_attachment_url(22); ?>";
+        } else {
+            image.src = "<?php echo wp_get_attachment_url(23); ?>";
+        }
     });
 </script>
 
-    
+
+
     <div class="home-banniere-section">
         <div class="">
             <img class="img-banniere" src="<?php

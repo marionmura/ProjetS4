@@ -111,6 +111,8 @@ footer {
 .night-mode {
   background-color: #171C30;
   color: #F6F2EA;
+  transition: background-color 15s ease-in-out;
+
 
   .home-titre {
     color: #F6F2EA;

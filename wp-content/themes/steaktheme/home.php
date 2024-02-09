@@ -1,5 +1,17 @@
 <?php
 get_header();?>
+<button class="toggle-button" id="night-mode-btn">Toggle Night Mode</button>
+
+
+<script>
+    const nightModeBtn = document.getElementById('night-mode-btn');
+    const body = document.body;
+
+    nightModeBtn.addEventListener('click', () => {
+        body.classList.toggle('night-mode');
+    });
+</script>
+
     
     <div class="home-banniere-section">
         <div class="">

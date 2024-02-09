@@ -105,7 +105,27 @@ footer {
 .section-nuit p {
   margin:0;
 }
-  /*CARDS ET CONTAINER*/
+
+/* NIGHT MODE */
+
+.night-mode {
+  background-color: #171C30;
+  color: #F6F2EA;
+
+  .home-titre {
+    color: #F6F2EA;
+    background-color: #171C30;
+  }
+
+  .home-banniere-section {
+    background-color: #171C30;
+  }
+
+}
+
+
+
+/*CARDS ET CONTAINER*/
 
 
  
@@ -162,7 +182,7 @@ footer {
 
 .cercles{
   position : absolute;
-}
+  top: 20;}
 
 /* ARTICLE */
 

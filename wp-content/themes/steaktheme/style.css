@@ -93,7 +93,9 @@ footer {
 }
 
 .img-banniere{
+  position: relative;
   width:75%;
+  z-index:2;
 }
 
 .section-nuit{
@@ -108,11 +110,19 @@ footer {
 
 /* NIGHT MODE */
 
+.toggle-button{
+  border: none;
+  background: none;
+}
+
+.moon-button{
+  width:50px;
+}
+
 .night-mode {
   background-color: #171C30;
   color: #F6F2EA;
   transition: background-color 15s ease-in-out;
-
 
   .home-titre {
     color: #F6F2EA;
@@ -182,9 +192,14 @@ footer {
   width:50%;
 }
 
-.cercles{
-  position : absolute;
-  top: 20;}
+/*CIRCLES*/
+.cercle-purple{
+  position: absolute;
+  width:360px;
+  top: 0px; /* Specify the desired top position */
+  left: -100px; /* Specify the desired left position */
+}
+
 
 /* ARTICLE */
 

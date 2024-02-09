@@ -19,6 +19,11 @@
     <div class="wrap">
         <div class="navigation">
             <header class="header">
+            <button class="toggle-button" id="night-mode-btn">
+                <img class="moon-button" src="<?php
+                    echo wp_get_attachment_url(23); ?>" alt="moonfull" />
+            </button>
+
               
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo wp_get_attachment_image(64, 'full'); ?></a>
                 

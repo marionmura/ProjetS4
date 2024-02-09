@@ -1,11 +1,6 @@
 <?php
 get_header();?>
 
-<button class="toggle-button" id="night-mode-btn">
-    <img class="" src="<?php
-        echo wp_get_attachment_url(23); ?>" alt="moonfull" /> 
-            Night Mode
-</button>
 <script>
     const nightModeBtn = document.getElementById('night-mode-btn');
     const body = document.body;
@@ -26,13 +21,15 @@ get_header();?>
     <div class="home-banniere-section">
         <div class="">
             <img class="img-banniere" src="<?php
-            echo wp_get_attachment_url(13); ?>" alt="banniere" /> 
+            echo wp_get_attachment_url(13); ?>" alt="banniere" />
+            <img class="cercle-purple" src="<?php
+            echo wp_get_attachment_url(16); ?>" alt="banniere" /> 
         </div>
         <div class="home-titre">
             <p>Bienvenue sur mon portfolio  !</p>
         <p>Je suis Marion MURA,
         graphiste et web designeuse</p>
-    </div>
+    </div>     
     </div>
 
     <div class="section-nuit">

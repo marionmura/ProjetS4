@@ -113,6 +113,8 @@ footer {
 .toggle-button{
   border: none;
   background: none;
+  position: relative;
+  z-index: 10;
 }
 
 .moon-button{

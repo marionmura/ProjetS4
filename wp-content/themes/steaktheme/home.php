@@ -23,12 +23,18 @@ get_header();?>
             <img class="img-banniere" src="<?php
             echo wp_get_attachment_url(13); ?>" alt="banniere" />
             <img class="cercle-purple" src="<?php
-            echo wp_get_attachment_url(16); ?>" alt="banniere" /> 
+            echo wp_get_attachment_url(16); ?>" alt="cercle violet blur" /> 
+            <img class="cercle-orange" src="<?php
+            echo wp_get_attachment_url(17); ?>" alt="cercle orange blur" />
+            <img class="cercle-vert" src="<?php
+            echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
         <div class="home-titre">
             <p>Bienvenue sur mon portfolio  !</p>
         <p>Je suis Marion MURA,
         graphiste et web designeuse</p>
+        <img class="cercle-rouge" src="<?php
+            echo wp_get_attachment_url(19); ?>" alt="cercle rouge blur" />
     </div>     
     </div>
 

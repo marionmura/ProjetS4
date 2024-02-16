@@ -8,9 +8,17 @@
             'footer-menu'  => __( 'Menu footer'),
         ) );
     }
-    add_action( 'init', 'register_my_menu', 0 );
    
+    function enqueue_tailwind_css() {
+        // Trouve le fichier tailwind.css dans le dossier du thème
+        wp_enqueue_style( 'style', get_stylesheet_uri() );
+        wp_enqueue_style( 'input', get_template_directory_uri() . '/input.css', array('style'), '1.0' );
+    }
+    
+    add_action('wp_enqueue_scripts', 'enqueue_tailwind_css');
+    
+
+
+add_action( 'init', 'register_my_menu', 0 );
 ?>
-
-
 

@@ -31,7 +31,7 @@ get_header();?>
         </div>
         <div>
             <p class="home-h3">Je suis Marion , graphiste et web designeuse</p>
-        <p class="home-titre">Marion MURA</p>
+            <p class="text-orange-fonce text-[3rem]">Marion MURA</p>
         <img class="cercle-rouge" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="cercle rouge blur" />
     </div>     

@@ -18,18 +18,18 @@ get_header();?>
 
 
 
-    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir align-middle ">
-        <div class="z-0">
-            <img class="img-banniere sm:w-[85%]" src="<?php
+    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir items-center gap-0 ">
+        <div class="">
+            <img class="relative z-50 w-[80%] sm:w-[100%] right-0 flex flex-end" src="<?php
             echo wp_get_attachment_url(13); ?>" alt="banniere" />
-            <img class="absolute w-[350px] left-[-100px] top-[-50px]  sm:w-[300px] sm:top-[-100px] " src="<?php
+            <img class="absolute w-[480px] left-[-100px] top-[50px]  sm:w-[400px] sm:top-[-110px] sm:left-[-40px] " src="<?php
             echo wp_get_attachment_url(16); ?>" alt="cercle violet blur" /> 
-            <img class="absolute w-[250px] top-[320px] sm:w-[200px] sm:left-10" src="<?php
+            <img class="absolute w-[250px] top-[320px] left-[200px] md:w-[200px] md:left-[150px] sm:w-[200px] sm:left-10 sm:top-[200px]" src="<?php
             echo wp_get_attachment_url(17); ?>" alt="cercle orange blur" />
-            <img class="absolute w-[240px] top-0 sm:w-[200px] sm:left-[75px] sm:top-[-75px]" src="<?php
+            <img class="absolute w-[240px] top-0 left-[180px] md:w-[200px] sm:w-[190px] sm:right-[0px] sm:top-[-70px] overflow-hidden" src="<?php
             echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
-        <div class="z-20 pt-[50px]" >
+        <div class="z-20 pt-[50px] md:mx-[10%]" >
             <p class="home-h3  text-[34px] md:text-[26px] sm:text-[16px]">Je suis Marion , graphiste et web designeuse</p>
             <p class="text-gris text-[96px] font-Paytone md:text-2xl sm:text-[40px] z-40">Marion MURA</p>
         <!-- <img class="cercle-rouge" src="<?php

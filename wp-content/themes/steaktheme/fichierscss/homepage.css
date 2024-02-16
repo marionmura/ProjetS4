@@ -10,7 +10,6 @@
 
 .home-h3{
     font-family: 'Paytone One', sans-serif;
-    font-size: 34px;
     color: #171C30;
     position: relative;
     z-index: 10;
@@ -18,7 +17,6 @@
 }
 
 .home-banniere-section{
-  background-color: #F6F2EA;
   display:grid;
   grid-template-columns: 1.2fr 1fr;
   align-items: center;

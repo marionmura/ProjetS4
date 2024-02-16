@@ -5,17 +5,15 @@ module.exports = {
     colors: {
       "blanc": "#FFFFFF",
       "noir": "#000000",
-      "bleu": "#00425A",
-      "vert-clair": "#1F8A70",
-      "vert-fonce": "#205B46",
-      "orange": "#EF8731",
-      "orange-fonce": "#B85227",
-      "beige": "#FDF7F1",
-      "rose": "#EBDEDE",
+      "blanc-ivoir": "#F6F2EA",
+      "gris": "#171C30",
       "transparent": "transparent",
     },
+    fontFamily: {
+      "Paytone": ["Paytone One", "sans-serif"],
+    },
     fontSize: {
-      '2xl': '300px',
+      '2xl': '3rem',
     },
     screens: {
       'xl': { 'max': '1439px' },

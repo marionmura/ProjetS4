@@ -13,7 +13,6 @@ Tags: simple, facile, sans danger, base pour la suite
 @tailwind utilities;
 
 
-/*importation fichiers de style*/
 @import "fichierscss/header.css";
 @import "fichierscss/homepage.css";
 
@@ -24,7 +23,3 @@ Tags: simple, facile, sans danger, base pour la suite
 @import "fichierscss/footer.css";
 @import "fichierscss/nightmode.css";
 @import "fichierscss/searchbar.css";
-
-
-/*RESPONSIVE*/
-@import "fichierscss/mediaqueries.css";

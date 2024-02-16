@@ -21,3 +21,6 @@ Tags: simple, facile, sans danger, base pour la suite
 @import "fichierscss/nightmode.css";
 @import "fichierscss/searchbar.css";
 
+
+/*RESPONSIVE*/
+@import "fichierscss/mediaqueries.css";

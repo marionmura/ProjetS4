@@ -18,14 +18,14 @@
     width:240px;
     top: 0px; /* Specify the desired top position */
     left: 180px; /* Specify the desired left position */
+    z-index:0;
   }
   
   .cercle-rouge{
     position: absolute;
     width:300px;
     top: 100px; /* Specify the desired top position */
-    right: -20px; /* Specify the desired left position */
-    z-index:-2;
+    z-index:0;
   }
 
   

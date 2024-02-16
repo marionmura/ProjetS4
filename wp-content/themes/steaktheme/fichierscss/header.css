@@ -7,6 +7,7 @@
     justify-content: flex-end; /* Place le titre à gauche et la navigation à droite */
     align-items: center; /* Centre verticalement le contenu */
     padding: 0px; /* Ajoute de la marge intérieure pour l'espace entre le contenu et les bords */
+    z-index:5;
   }
   
   .header h1 {
@@ -33,11 +34,9 @@
 
 
 header a{
-    background-color: #F6F2EA;
     font-family: 'Paytone One', sans-serif;
     font-size: 20px;
     color: #171C30;
     text-decoration: none;
  }
 
- 

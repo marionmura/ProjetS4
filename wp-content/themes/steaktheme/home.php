@@ -29,26 +29,18 @@ get_header();?>
             <img class="cercle-vert" src="<?php
             echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
-        <div class="home-h3">
-            <p>Je suis Marion , graphiste et web designeuse</p>
+        <div>
+            <p class="home-h3">Je suis Marion , graphiste et web designeuse</p>
         <p class="home-titre">Marion MURA</p>
         <img class="cercle-rouge" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="cercle rouge blur" />
     </div>     
     </div>
 
-    <div class="section-nuit">
-        <div>
-            <p>Je suis étudiante en 2ème année au BUT MMI à Montbéliard</p>
-        </div>
-        <div>
-            <p>je suis en parcours création numérique, c’est ...</p>
-        </div>
-        <div>
-            <p>... du design, de l’animation et de la créativité </p>
-        </div>
+    <div class="">
+        
     </div>
-
+<!-- 
     <div class="presentation-grid-2">
         <div>
             <h1>Moi c’est Marion</h1>
@@ -65,7 +57,7 @@ get_header();?>
             <img class="cercles" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="banniere" />
         </div>
-    </div>
+    </div> -->
 
 <?php 
 get_footer();

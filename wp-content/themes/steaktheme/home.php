@@ -18,19 +18,19 @@ get_header();?>
 
 
 
-    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir align-middle mt-[20px]">
+    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir align-middle ">
         <div class="z-0">
-            <img class="img-banniere" src="<?php
+            <img class="img-banniere sm:w-[85%]" src="<?php
             echo wp_get_attachment_url(13); ?>" alt="banniere" />
-            <img class="cercle-purple sm:w-[200px]" src="<?php
+            <img class="absolute w-[350px] left-[-100px] top-[-50px]  sm:w-[300px] sm:top-[-100px] " src="<?php
             echo wp_get_attachment_url(16); ?>" alt="cercle violet blur" /> 
-            <img class="absolute w-[200px] top-0 sm:w-[50px] sm:left-[10px]" src="<?php
+            <img class="absolute w-[250px] top-[320px] sm:w-[200px] sm:left-10" src="<?php
             echo wp_get_attachment_url(17); ?>" alt="cercle orange blur" />
-            <img class="absolute w-[200px] top-0 sm:w-[50px] sm:left-[10px]" src="<?php
+            <img class="absolute w-[240px] top-0 sm:w-[200px] sm:left-[75px] sm:top-[-75px]" src="<?php
             echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
-        <div class="z-20 " >
-            <p class="home-h3 text-[34px] md:text-[26px] sm:text-[16px]">Je suis Marion , graphiste et web designeuse</p>
+        <div class="z-20 pt-[50px]" >
+            <p class="home-h3  text-[34px] md:text-[26px] sm:text-[16px]">Je suis Marion , graphiste et web designeuse</p>
             <p class="text-gris text-[96px] font-Paytone md:text-2xl sm:text-[40px] z-40">Marion MURA</p>
         <!-- <img class="cercle-rouge" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="cercle rouge blur" /> -->

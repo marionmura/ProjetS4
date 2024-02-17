@@ -47,7 +47,7 @@ get_header();?>
 
 <div class="bg-blanc-ivoir py-[8rem]">
     <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-12">
-        <div class="w-[29rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
+        <div class="w-[36rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
         </div>
         <div>
             <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Animation & </p> 
@@ -59,18 +59,33 @@ get_header();?>
     
     <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
         <div>
-            <div class="w-[29rem] h-[20rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+            <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
             </div>
             <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Affiches, </p> 
             <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Avatars & </p>
             <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Pictogrammes</p>
             
         </div>
-            <div class="w-[36rem] h-[50rem] md:w-0 md:h-0 bg-gris rounded-lg">
+            <div class="w-[36rem] h-[50rem] md:w-0 md:h-0 bg-gris rounded-lg mb-12">
         </div>
         
     </div>
 
+    <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
+        <div>
+        <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+            </div>
+        <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+            </div>
+        </div>
+        <div>
+            <div class="w-[36rem] h-[27rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+            </div>
+            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Chartes </p> 
+            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Graphiques</p>
+            
+        </div>
+    </div>
 </div>
 
 

@@ -30,8 +30,8 @@ get_header();?>
             echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
         <div class="z-20 pt-[50px] md:mx-[10%]" >
-            <p class="home-h3  text-[34px] md:text-[26px] sm:text-[16px]">Je suis Marion , graphiste et web designeuse</p>
-            <p class="text-gris text-[96px] font-Paytone md:text-2xl sm:text-[40px] z-40">Marion MURA</p>
+            <p class="home-h3  text-[2rem] md:text-[1.5rem] sm:text-[1rem]">Je suis Marion , graphiste et web designeuse</p>
+            <p class="text-gris text-[6rem] font-Paytone md:text-2xl sm:text-[2rem] z-40">Marion MURA</p>
         <!-- <img class="cercle-rouge" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="cercle rouge blur" /> -->
     </div>     
@@ -43,6 +43,27 @@ get_header();?>
             echo wp_get_attachment_url(28); ?>" alt="double arrow" />
     </div>
 </div>
+
+
+<div class="bg-blanc-ivoir py-[8rem]">
+    <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem]">
+        <div class="w-[29rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
+        </div>
+        <div>
+            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Animation & </p> 
+            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40"> Motion Design</p>
+            <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris my-[3rem] rounded-lg">
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+</div>
+
+
+
 
 <!-- 
     <div class="presentation-grid-2">

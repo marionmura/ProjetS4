@@ -607,34 +607,9 @@ video {
   margin-right: 5rem;
 }
 
-.my-\[3rem\] {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.my-9 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
-
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
 }
 
 .mb-12 {
@@ -645,12 +620,20 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.h-\[19rem\] {
+  height: 19rem;
 }
 
 .h-\[21rem\] {
@@ -661,32 +644,24 @@ video {
   height: 25rem;
 }
 
-.h-\[50rem\] {
-  height: 50rem;
-}
-
-.h-\[20rem\] {
-  height: 20rem;
-}
-
-.h-\[22rem\] {
-  height: 22rem;
-}
-
-.h-\[19rem\] {
-  height: 19rem;
-}
-
-.h-\[2rem\] {
-  height: 2rem;
-}
-
 .h-\[27rem\] {
   height: 27rem;
 }
 
+.h-\[35rem\] {
+  height: 35rem;
+}
+
+.h-\[50rem\] {
+  height: 50rem;
+}
+
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[15rem\] {
+  width: 15rem;
 }
 
 .w-\[240px\] {
@@ -697,8 +672,8 @@ video {
   width: 250px;
 }
 
-.w-\[29rem\] {
-  width: 29rem;
+.w-\[25rem\] {
+  width: 25rem;
 }
 
 .w-\[36rem\] {
@@ -713,12 +688,33 @@ video {
   width: 80%;
 }
 
+.rotate-\[-90deg\] {
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.place-items-center {
+  place-items: center;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-items-end {
+  justify-items: end;
 }
 
 .gap-0 {
@@ -748,13 +744,17 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-\[8rem\] {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
+.pb-12 {
   padding-bottom: 3rem;
 }
 
@@ -766,20 +766,28 @@ video {
   padding-top: 50px;
 }
 
-.pb-12 {
-  padding-bottom: 3rem;
+.pt-\[8rem\] {
+  padding-top: 8rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.pb-\[8rem\] {
+  padding-bottom: 8rem;
 }
 
 .font-Paytone {
   font-family: Paytone One, sans-serif;
+}
+
+.text-2xl {
+  font-size: 3rem;
+}
+
+.text-\[26px\] {
+  font-size: 26px;
 }
 
 .text-\[2rem\] {

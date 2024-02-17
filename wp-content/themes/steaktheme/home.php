@@ -1,5 +1,5 @@
 <?php
-get_header();?>
+get_header(); ?>
 
 <script>
     // const nightModeBtn = document.getElementById('night-mode-btn');
@@ -16,82 +16,105 @@ get_header();?>
     // });
 </script>
 
+<div class="bg-blanc-ivoir">
 
-
-    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir items-center gap-0 py-10">
+    <div class="grid grid-cols-2 md:grid-cols-1  items-center gap-0 py-10">
         <div class="">
             <img class="relative z-50 w-[80%] sm:w-[100%] right-0 flex flex-end" src="<?php
             echo wp_get_attachment_url(13); ?>" alt="banniere" />
-            <img class="absolute w-[480px] left-[-100px] top-[50px] md:top-[0px] sm:w-[400px] sm:top-[-110px] sm:left-[-40px] " src="<?php
-            echo wp_get_attachment_url(16); ?>" alt="cercle violet blur" /> 
-            <img class="absolute w-[250px] top-[320px] left-[200px] md:w-[200px] md:left-[150px] md:top-[380px] sm:w-[200px] sm:left-10 sm:top-[200px]" src="<?php
-            echo wp_get_attachment_url(17); ?>" alt="cercle orange blur" />
-            <img class="absolute w-[240px] top-0 left-[180px] md:w-[200px] md:left-[200px] sm:w-[190px] sm:left-[190px] sm:top-[-70px] overflow-hidden" src="<?php
-            echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
+            <img class="absolute w-[480px] left-[-100px] top-[50px] md:top-[0px] sm:w-[400px] sm:top-[-110px] sm:left-[-40px] "
+                src="<?php
+                echo wp_get_attachment_url(16); ?>" alt="cercle violet blur" />
+            <img class="absolute w-[250px] top-[320px] left-[200px] md:w-[200px] md:left-[150px] md:top-[380px] sm:w-[200px] sm:left-10 sm:top-[200px]"
+                src="<?php
+                echo wp_get_attachment_url(17); ?>" alt="cercle orange blur" />
+            <img class="absolute w-[240px] top-0 left-[180px] md:w-[200px] md:left-[200px] sm:w-[190px] sm:left-[190px] sm:top-[-70px] overflow-hidden"
+                src="<?php
+                echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
-        <div class="z-20 pt-[50px] md:mx-[10%]" >
-            <p class="home-h3  text-[2rem] md:text-[1.5rem] sm:text-[1rem]">Je suis Marion , graphiste et web designeuse</p>
+        <div class="z-20 pt-[50px] md:mx-[10%]">
+            <p class="home-h3  text-[2rem] md:text-[1.5rem] sm:text-[1rem]">Je suis Marion , graphiste et web designeuse
+            </p>
             <p class="text-gris text-[6rem] font-Paytone md:text-2xl sm:text-[2rem] z-40">Marion MURA</p>
-        <!-- <img class="cercle-rouge" src="<?php
+            <!-- <img class="cercle-rouge" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="cercle rouge blur" /> -->
-    </div>     
+        </div>
     </div>
 
-    <div class="bg-blanc-ivoir w-[100%]">
+    <div class=" w-[100%]">
         <div class="arrow-down">
-        <img class="" src="<?php
+            <img class="" src="<?php
             echo wp_get_attachment_url(28); ?>" alt="double arrow" />
-    </div>
-</div>
-
-
-<div class="bg-blanc-ivoir py-[8rem]">
-    <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-12">
-        <div class="w-[36rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
-        </div>
-        <div>
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Animation & </p> 
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40"> Motion Design</p>
-            <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris my-12 rounded-lg">
-            </div>
         </div>
     </div>
-    
-    <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
-        <div>
-            <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+
+
+    <div class=" pt-[8rem]">
+        <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-12">
+            <div class="w-[36rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
             </div>
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Affiches, </p> 
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Avatars & </p>
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Pictogrammes</p>
-            
+            <div>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Animation & </p>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40"> Motion Design</p>
+                <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris my-12 rounded-lg">
+                </div>
+            </div>
         </div>
+
+        <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
+            <div>
+                <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+                </div>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Affiches, </p>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Avatars & </p>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Pictogrammes</p>
+
+            </div>
             <div class="w-[36rem] h-[50rem] md:w-0 md:h-0 bg-gris rounded-lg mb-12">
+            </div>
+
         </div>
-        
+
+        <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
+            <div>
+                <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+                </div>
+                <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+                </div>
+            </div>
+            <div>
+                <div class="w-[36rem] h-[27rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-4">
+                </div>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Chartes </p>
+                <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Graphiques</p>
+            </div>
+        </div>
     </div>
 
-    <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
-        <div>
-        <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
-            </div>
-        <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
-            </div>
-        </div>
-        <div>
-            <div class="w-[36rem] h-[27rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
-            </div>
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Chartes </p> 
-            <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Graphiques</p>
-            
-        </div>
+    <div class=" flex justify-center pb-[8rem]">
+        <p class="text-[2rem] font-Paytone text-gris ">Voir MES PROJETS MMI</p>
+        <img class="rotate-[-90deg]" src="<?php
+        echo wp_get_attachment_url(28); ?>" alt="double arrow" />
     </div>
-</div>
+
+    <div class="grid grid-cols-3 gap-0 justify-items-end">
+        <div class="place-items-center">
+            <p class="text-gris font-Paytone text-2xl">Je suis Artiste,</p>
+            <p class="text-gris font-Paytone text-[26px]">pendant mon temps libre. Je dessine sur Krita et tablette graphique.</p>
+            <p class="text-gris font-Paytone text-[26px]">J’ai mené plusieurs projets comme une BD ou de l’animation 2D.</p>
+            <div class=" flex justify-center">
+                <p class="text-[2rem] font-Paytone text-gris ">Voir MES PROJETS Perso</p>
+                <img class="rotate-[-90deg]" src="<?php
+                echo wp_get_attachment_url(28); ?>" alt="double arrow" />
+            </div>
+        </div>
+        <div class="w-[15rem] h-[35rem] md:w-0 md:h-0 bg-gris rounded-lg mb-16"></div>
+        <div class="w-[25rem] h-[35rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16"></div>
+    </div>
 
 
 
-
-<!-- 
+        <!-- 
     <div class="presentation-grid-2">
         <div>
             <h1>Moi c’est Marion</h1>
@@ -102,14 +125,14 @@ get_header();?>
         </div>
         <div>
             <img class="photodemoi" src="<?php
-                echo wp_get_attachment_url(15); ?>" alt="banniere" />
+            echo wp_get_attachment_url(15); ?>" alt="banniere" />
             <img class="cercles" src="<?php
-                echo wp_get_attachment_url(18); ?>" alt="banniere" />
+            echo wp_get_attachment_url(18); ?>" alt="banniere" />
             <img class="cercles" src="<?php
             echo wp_get_attachment_url(19); ?>" alt="banniere" />
         </div>
     </div> -->
 
-<?php 
-get_footer();
-?>
+        <?php
+        get_footer();
+        ?>

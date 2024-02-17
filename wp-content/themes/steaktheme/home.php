@@ -18,15 +18,15 @@ get_header();?>
 
 
 
-    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir items-center gap-0 ">
+    <div class="grid grid-cols-2 md:grid-cols-1 bg-blanc-ivoir items-center gap-0 py-10">
         <div class="">
             <img class="relative z-50 w-[80%] sm:w-[100%] right-0 flex flex-end" src="<?php
             echo wp_get_attachment_url(13); ?>" alt="banniere" />
-            <img class="absolute w-[480px] left-[-100px] top-[50px]  sm:w-[400px] sm:top-[-110px] sm:left-[-40px] " src="<?php
+            <img class="absolute w-[480px] left-[-100px] top-[50px] md:top-[0px] sm:w-[400px] sm:top-[-110px] sm:left-[-40px] " src="<?php
             echo wp_get_attachment_url(16); ?>" alt="cercle violet blur" /> 
-            <img class="absolute w-[250px] top-[320px] left-[200px] md:w-[200px] md:left-[150px] sm:w-[200px] sm:left-10 sm:top-[200px]" src="<?php
+            <img class="absolute w-[250px] top-[320px] left-[200px] md:w-[200px] md:left-[150px] md:top-[380px] sm:w-[200px] sm:left-10 sm:top-[200px]" src="<?php
             echo wp_get_attachment_url(17); ?>" alt="cercle orange blur" />
-            <img class="absolute w-[240px] top-0 left-[180px] md:w-[200px] sm:w-[190px] sm:right-[0px] sm:top-[-70px] overflow-hidden" src="<?php
+            <img class="absolute w-[240px] top-0 left-[180px] md:w-[200px] md:left-[200px] sm:w-[190px] sm:left-[190px] sm:top-[-70px] overflow-hidden" src="<?php
             echo wp_get_attachment_url(18); ?>" alt="cercle vert blur" />
         </div>
         <div class="z-20 pt-[50px] md:mx-[10%]" >
@@ -37,9 +37,13 @@ get_header();?>
     </div>     
     </div>
 
-    <div class="">
-        
+    <div class="bg-blanc-ivoir w-[100%]">
+        <div class="arrow-down">
+        <img class="" src="<?php
+            echo wp_get_attachment_url(28); ?>" alt="double arrow" />
     </div>
+</div>
+
 <!-- 
     <div class="presentation-grid-2">
         <div>

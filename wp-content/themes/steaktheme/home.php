@@ -92,23 +92,23 @@ get_header(); ?>
     </div>
 
     <div class=" flex justify-center pb-[8rem]">
-        <p class="text-[2rem] font-Paytone text-gris ">Voir MES PROJETS MMI</p>
-        <img class="rotate-[-90deg]" src="<?php
+        <p class="text-[2rem] font-Paytone text-gris md:text-[20px] ">Voir MES PROJETS MMI</p>
+        <img class="rotate-[-90deg] w-[30px]" src="<?php
         echo wp_get_attachment_url(28); ?>" alt="double arrow" />
     </div>
 
-    <div class="grid grid-cols-3 gap-0 justify-items-end">
-        <div class="place-items-center">
-            <p class="text-gris font-Paytone text-2xl">Je suis Artiste,</p>
-            <p class="text-gris font-Paytone text-[26px]">pendant mon temps libre. Je dessine sur Krita et tablette graphique.</p>
-            <p class="text-gris font-Paytone text-[26px]">J’ai mené plusieurs projets comme une BD ou de l’animation 2D.</p>
-            <div class=" flex justify-center">
-                <p class="text-[2rem] font-Paytone text-gris ">Voir MES PROJETS Perso</p>
-                <img class="rotate-[-90deg]" src="<?php
+    <div class="flex flex-cols-3 justify-center gap-[5rem] md:gap-[2rem] mx-[3rem]">
+        <div class="place-items-center w-[25rem] md:w-[20rem]">
+            <p class="text-gris font-Paytone text-2xl md:text-[28px]">Je suis Artiste,</p>
+            <p class="text-gris font-Paytone text-[26px] md:text-[20px]">pendant mon temps libre. Je dessine sur Krita et tablette graphique.</p>
+            <p class="text-gris font-Paytone text-[26px] md:text-[20px]">J’ai réalisé plusieurs projets comme une BD ou de l’animation 2D.</p>
+            <div class=" flex justify-center mt-[3rem]">
+                <p class="text-[25px] font-Paytone text-gris md:text-[20px]">Voir MES PROJETS Perso</p>
+                <img class="rotate-[-90deg] w-[30px]" src="<?php
                 echo wp_get_attachment_url(28); ?>" alt="double arrow" />
             </div>
         </div>
-        <div class="w-[15rem] h-[35rem] md:w-0 md:h-0 bg-gris rounded-lg mb-16"></div>
+        <div class="w-[18rem] h-[35rem] md:w-0 md:h-0 bg-gris rounded-lg mb-16"></div>
         <div class="w-[25rem] h-[35rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16"></div>
     </div>
 

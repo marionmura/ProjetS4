@@ -50,7 +50,7 @@ get_header(); ?>
 
 
     <div class=" pt-[8rem]">
-        <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-12">
+        <div class="flex flex-cols-2 justify-center gap-[5rem] lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-[10rem]">
             <div class="w-[36rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
             </div>
             <div>
@@ -61,7 +61,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
+        <div class="flex flex-cols-2 justify-center gap-[5rem] lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-[10rem] ">
             <div>
                 <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
                 </div>
@@ -75,7 +75,7 @@ get_header(); ?>
 
         </div>
 
-        <div class="grid grid-cols-2 gap-0 lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
+        <div class="flex flex-cols-2 justify-center gap-[5rem] lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] py-12 ">
             <div>
                 <div class="w-[36rem] h-[19rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
                 </div>
@@ -91,8 +91,8 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class=" flex justify-center pb-[8rem]">
-        <p class="text-[2rem] font-Paytone text-gris md:text-[20px] ">Voir MES PROJETS MMI</p>
+    <div class=" flex justify-center pb-[10rem] gap-5">
+        <p class="text-[2rem] font-Paytone text-gris md:text-[20px]  ">PROJETS MMI</p>
         <img class="rotate-[-90deg] w-[30px]" src="<?php
         echo wp_get_attachment_url(28); ?>" alt="double arrow" />
     </div>
@@ -102,8 +102,8 @@ get_header(); ?>
             <p class="text-gris font-Paytone text-2xl md:text-[28px]">Je suis Artiste,</p>
             <p class="text-gris font-Paytone text-[26px] md:text-[20px]">pendant mon temps libre. Je dessine sur Krita et tablette graphique.</p>
             <p class="text-gris font-Paytone text-[26px] md:text-[20px]">J’ai réalisé plusieurs projets comme une BD ou de l’animation 2D.</p>
-            <div class=" flex justify-center mt-[3rem]">
-                <p class="text-[25px] font-Paytone text-gris md:text-[20px]">Voir MES PROJETS Perso</p>
+            <div class=" flex justify-center mt-[3rem] gap-5">
+                <p class="text-[25px] font-Paytone text-gris md:text-[20px]">MES PROJETS</p>
                 <img class="rotate-[-90deg] w-[30px]" src="<?php
                 echo wp_get_attachment_url(28); ?>" alt="double arrow" />
             </div>

@@ -794,6 +794,18 @@ video {
   gap: 5rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -822,6 +834,11 @@ video {
   padding-bottom: 3rem;
 }
 
+.py-\[10rem\] {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -840,6 +857,10 @@ video {
 
 .pt-\[8rem\] {
   padding-top: 8rem;
+}
+
+.pb-\[10rem\] {
+  padding-bottom: 10rem;
 }
 
 .font-Paytone {

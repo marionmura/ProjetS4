@@ -52,18 +52,22 @@ get_header(); ?>
     <div class=" pt-[8rem]">
         <div class="flex flex-cols-2 justify-center gap-[5rem] lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-[10rem]">
             <div class="w-[36rem] h-[25rem] md:w-0 md:h-0 bg-gris  rounded-lg">
+            <img class="" src="<?php echo wp_get_attachment_url(35); ?>" alt="img animation character" />
             </div>
             <div>
                 <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Animation & </p>
                 <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40"> Motion Design</p>
-                <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris my-12 rounded-lg">
+                <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris my-12 rounded-lg relative overflow-hidden">
+                <img class="w-full h-full object-cover" src="<?php echo wp_get_attachment_url(34); ?>" alt="animcat" />
                 </div>
             </div>
         </div>
+        <!-- soucis du format de l'image dans les divs -->
 
         <div class="flex flex-cols-2 justify-center gap-[5rem] lg:grid lg:grid-cols-1 mx-[5rem] lg:mx-[2rem] pb-[10rem] ">
             <div>
                 <div class="w-[36rem] h-[21rem] md:w-0 md:h-0 bg-gris  rounded-lg mb-16">
+                    <img class="w-[36rem] h-[21rem] object-cover" src="<?php echo wp_get_attachment_url(32); ?>" alt="picto" />
                 </div>
                 <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Affiches, </p>
                 <p class="text-gris text-[4rem] font-Paytone lg:text-[3rem] sm:text-[2rem] z-40">Avatars & </p>
@@ -71,6 +75,7 @@ get_header(); ?>
 
             </div>
             <div class="w-[36rem] h-[50rem] md:w-0 md:h-0 bg-gris rounded-lg mb-12">
+            <img class="w-full h-full object-cover" src="<?php echo wp_get_attachment_url(33); ?>" alt="affiche cassandre" />
             </div>
 
         </div>
